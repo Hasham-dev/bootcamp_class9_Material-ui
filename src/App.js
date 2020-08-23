@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar'
 import { makeStyles } from '@material-ui/core/styles';
 import { Paper, TextField, Button } from '@material-ui/core';
-
+import Barchart from './Barchart'
 const useStyles = makeStyles((theme) => ({
   paper: {
     width: 600,
@@ -33,6 +33,7 @@ function App() {
           </Button>
         </form>
       </Paper>
+    <Barchart />
     </div>
   );
 }
